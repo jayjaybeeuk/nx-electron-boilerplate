@@ -66,7 +66,7 @@ jobs:
         with:
           tag_name: v${{ needs.create_tag.outputs.package_version }}
           files: |
-            ./release/out/Nimble Electron Boilerplate Setup ${{ needs.create_tag.outputs.package_version }}.exe
+            ./release/out/Electron Boilerplate Setup ${{ needs.create_tag.outputs.package_version }}.exe
 
   release_macos:
     needs: [create_tag]
@@ -102,8 +102,7 @@ jobs:
         with:
           tag_name: v${{ needs.create_tag.outputs.package_version }}
           files: |
-            ./release/out/Nimble Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}-arm64-mac.zip
-            ./release/out/Nimble Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}-arm64.dmg
-            ./release/out/Nimble Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}-mac.zip
-            ./release/out/Nimble Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}.dmg
-            ./docs/Help-guide.docx
+            ./release/out/Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}-arm64-mac.zip
+            ./release/out/Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}-arm64.dmg
+            ./release/out/Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}-mac.zip
+            ./release/out/Electron Boilerplate-${{ needs.create_tag.outputs.package_version }}.dmg

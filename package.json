@@ -1,9 +1,9 @@
 {
-  "name": "nx-electron-node-react-boilerplate",
+  "name": "nx-electron-boilerplate",
   "productName": "NX Electron Node React Boilerplate",
   "version": "0.0.0",
   "description": "A foundation for scalable desktop apps",
-  "author": "Nimble",
+  "author": "James Bolton",
   "license": "MIT",
   "main": "./release/build/electron/main.js",
   "private": true,
@@ -140,11 +140,11 @@
     "extends": null,
     "publish": {
       "provider": "github",
-      "owner": "Nimble",
-      "repo": "nx-electron-node-react-boilerplate"
+      "owner": "James",
+      "repo": "nx-electron-boilerplate"
     },
-    "productName": "Nimble Electron Boilerplate",
-    "appId": "nimble.desktop-app.nx-node-react-boilerplate",
+    "productName": "Electron Boilerplate",
+    "appId": "desktop-app.nx-electron-boilerplate",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "afterSign": ".config/scripts/notarize.js",
